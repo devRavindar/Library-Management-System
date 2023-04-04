@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/adminbackimg.jpg");
+    background-size: cover;
+}
+.adminform{
+    background-color: rgba(255, 255, 255,0.33);
+    box-shadow: opx 8px 32px 0 rgba(0, 0, 255, 0.3);
+    backdrop-filter: blur(3px);
+    padding: 0px 16px 16px 16px;
+    height: 300px;
+    width: 250px;
+
+}
+.inp input{
+   padding: 10px ;
+   height: 10px;
+   border: none;
+   background-color: transparent;
+   color: gray;
+   border-bottom: 1px solid rgb(150, 147, 147);
+   display: grid;
+
+}
+.button button{
+background-color: rgb(72, 44, 124);
+padding: 10px;
+color: antiquewhite;
+font-family: sans-serif;
+border: none;
+}
+.inp input:hover{
+    background-color: rgba(105, 98, 98, 0.452);
+}

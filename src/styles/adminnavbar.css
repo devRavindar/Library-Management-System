@@ -1,0 +1,25 @@
+.navbar {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  width:fit-content;
+  position: relative;
+  background-color: rgb(201, 72, 72);
+  height: 100vh;
+}
+.navbarlinks img{
+    height: 50px;
+    width: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.navbar a:hover{
+background-color: mediumblue;
+border-radius: 35px;
+}

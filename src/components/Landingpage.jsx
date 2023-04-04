@@ -4,9 +4,17 @@ import "../styles/Landingpage.css";
 const Landingpage = () => {
   return (
     <div className="landingpage">
-      <h1>Signin As .. </h1>
-      <Link to="/Adminlogin">Admin Login</Link>
-      <Link to="/Userlogin">User Login</Link>
+     <div className="formdiv">
+      <form action=""><div className="heading"> <h1>Signin As .. </h1></div>
+      <div className="button1">
+        <button>
+          <Link to="/Adminlogin">Admin Login</Link>
+        </button>
+        <button>
+          <Link to="/Userlogin">User Login</Link>
+        </button>
+      </div></form>
+     </div>
     </div>
   );
 };

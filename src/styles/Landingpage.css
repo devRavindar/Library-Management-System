@@ -1,0 +1,63 @@
+.landingpage {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/landingback.jpg");
+    background-size: cover;
+
+}
+.button1 button{
+    /* display:;
+    justify-content: space-around;
+background-color: rgb(85, 81, 92);
+padding: 10px;
+color: antiquewhite;
+font-family: sans-serif;
+border: none;
+border: none;
+     */
+}
+.heading{
+    background-color: aqua;
+    width: 300px;
+    text-align: center;
+    margin-top: -250px;
+    margin-left:50px;
+    border: none;
+   
+}
+.formdiv form{
+    background-color: aqua;
+    
+   
+}
+.formdiv form button{
+    margin-left: 20px;
+    background-color: rgb(85, 81, 92);
+    padding: 10px;
+    font-family: sans-serif;
+    border: 1px solid rgb(89, 156, 86);
+    color: antiquewhite;
+    
+}
+.formdiv form button:hover  {
+    background-color: rgb(212, 102, 38);
+    color: antiquewhite;
+    border-radius: 30px;
+
+}
+.button1 a{
+    text-decoration: none;
+    color: rgb(187, 28, 28);
+    font-size: 20px;
+   
+}
+.button1 a:hover{
+    text-decoration: none;
+    color: rgb(69, 163, 15);
+    
+   
+}

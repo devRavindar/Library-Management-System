@@ -1,5 +1,8 @@
 import { useRef, } from "react";
 import { useNavigate } from "react-router-dom";
+import "../styles/Adminlogin.css"
+import "../images/adminbackimg.jpg"
+import "../images/adminprofile.png"
 const Admin = () => {
   let email = useRef(null);
   let password = useRef(null);
@@ -16,14 +19,19 @@ const Admin = () => {
 
   return (
     <div className="main">
-      <h1>Admin Portal</h1>
+    
       <div className="adminform">
+      <h1>Welcome Back</h1>
        <form action="" onSubmit={Adminlogin}>
+       <div className="inp">
        <div className="mail">
+        <label htmlFor="">Email : </label>
           <input type="text" ref={email} placeholder="Enter your Email" />
           <br />
         </div>
         <div className="password">
+          <label htmlFor="">Password  : </label>
+        
           <input
             type="password"
             ref={password}
@@ -31,9 +39,10 @@ const Admin = () => {
           />
           <br />
           <div className="button">
-              <button>Submit</button>
+              <button block >Submit</button>
             </div>
         </div>
+       </div>
        </form>
       </div>
     </div>

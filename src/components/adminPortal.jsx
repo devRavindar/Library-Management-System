@@ -7,7 +7,7 @@ import Adminnavbar from "./adminnavbar";
 
 const Adminportal = () => {
     return ( 
-        <div className="main">
+        <div className="adminportal">
            
             <Adminnavbar/>
           

@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Landingpage/>}/>
           <Route path="/Adminlogin" element={<Adminlogin/>}/>
           <Route path="/Userlogin" element={<Userlogin/>}/>
-          <Route path="/Admin/*" element={<Adminportal />}/>
+          <Route path="/Adminportal/*" element={<Adminportal />}/>
         </Routes>
       </BrowserRouter>
     </div>
