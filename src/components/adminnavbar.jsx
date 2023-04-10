@@ -1,30 +1,27 @@
 import "../styles/adminnavbar.css";
-import Home from "../images/adminhomenavbar.png";
-import Logout from "../images/adminlogout.png";
-import Books from "../images/adminbooks.png"
-import User from "../images/adminusers.png"
+import { Link } from "react-router-dom";
 
 const Adminnavbar = () => {
   return (
     <div className="navbar">
+      <div className="welcomeadmin">
+        <h2>Admin is Here !</h2>
+      </div>
       <div className="navbarlinks">
-        <div className="adminhomepage">
-          <img src={Home} alt="" />
-          <a href="">Home</a>
-        </div>
-        
-        <div className="adminbooks">
-            <img src={Books} alt="" />
-            <a href="">BookList</a>
-        </div>
-        <div className="adminusers">
-            <img src={User} alt="" />
-            <a href="">Users</a>
-        </div>
-        <div className="adminlogout">
-          <img src={Logout} alt="" />
-          <a href="">Logout</a>
-        </div>
+       <ul>
+      <li> <div className="adminhome">
+          <Link to="/Adminportal">Home</Link> </div></li>
+       <li><div className="adminbooklist">
+          <Link to="/adminportal/booklist">BookList</Link></div></li>
+       <li> <div className="adminuserList">
+          <Link to="/adminportal/userlist">UserList</Link></div></li>
+        <li><div className="adminAddbook">
+          <Link to="/adminportal/addbooks">AddBooks</Link> </div></li>
+        <li><div className="adminuser">
+          <Link to="/adminportal/addusers">AddUsers</Link></div></li>
+        <li><div className="adminlogout">
+          <Link to="/adminportal/logout">Logout</Link> </div></li>
+       </ul>
       </div>
     </div>
   );

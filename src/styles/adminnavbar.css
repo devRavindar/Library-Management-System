@@ -1,25 +1,38 @@
-.navbar {
+.navbar{
   display:flex;
-  align-items: center;
+  align-items:center;
   justify-content: space-between;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
-  width:fit-content;
-  position: relative;
-  background-color: rgb(201, 72, 72);
-  height: 100vh;
-}
-.navbarlinks img{
-    height: 50px;
-    width: 50px;
-}
-.navbar a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    margin-left: 10px;
+  /* background-color: rgb(132, 121, 163); */
+ 
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient(rgb(32, 141, 23),rgb(236, 230, 230));
+  
 }
 
-.navbar a:hover{
-background-color: mediumblue;
-border-radius: 35px;
+.navbarlinks li{
+  display:inline-block;
+  padding:20px;
+  padding-right: 60px;
+ 
+}
+.navbarlinks a{
+  text-decoration:none;
+  color:rgb(15, 14, 14);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbarlinks a:hover{
+  color:rgb(80, 37, 179);
+  background-color: rgb(247, 243, 243);
+  text-decoration: overline;
+  
+}
+.welcomeadmin{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 150px;
+  color:rgb(8, 8, 8);
 }

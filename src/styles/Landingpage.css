@@ -7,7 +7,7 @@
     height: 100vh;
     background: url("../images/landingback.jpg");
     background-size: cover;
-
+    
 }
 .button1 button{
     /* display:;
@@ -21,26 +21,31 @@ border: none;
      */
 }
 .heading{
-    background-color: aqua;
+    /* background-color: rgb(101, 163, 163); */
     width: 300px;
     text-align: center;
     margin-top: -250px;
-    margin-left:50px;
+    margin-left:70px;
     border: none;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-size: larger;
    
 }
-.formdiv form{
-    background-color: aqua;
+.formdiv {
+    background-color: rgba(255, 255, 255,0.33);
     
    
 }
 .formdiv form button{
     margin-left: 20px;
-    background-color: rgb(85, 81, 92);
+    background-color: rgb(155, 139, 46);
     padding: 10px;
     font-family: sans-serif;
     border: 1px solid rgb(89, 156, 86);
-    color: antiquewhite;
+    color: rgb(226, 225, 223);
+    height: 50px;
+    width: 200px;
     
 }
 .formdiv form button:hover  {
@@ -57,7 +62,10 @@ border: none;
 }
 .button1 a:hover{
     text-decoration: none;
-    color: rgb(69, 163, 15);
+    color: rgb(214, 218, 213);
     
    
+}
+*{
+    transition: 0.5s;
 }

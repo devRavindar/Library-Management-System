@@ -1,0 +1,53 @@
+.booklist{
+    background:linear-gradient( rgb(75, 184, 75),white);
+}
+.map{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: fit-content; */
+    width: 25%;
+    float: left;
+    
+   
+  
+}
+.map:hover{
+    width: 320px;
+    height: 400px;
+    /* background:linear-gradient(to right,rgb(61, 150, 61),white);
+    transition: width 2s;
+    color: rgb(114, 38, 124); */
+    box-shadow: 0 0 5px 5px rgb(49, 94, 161),
+    0 0 10px 10px rgb(51, 51, 151);
+    background:linear-gradient(to right ,rgb(60, 60, 150) ,white);
+    color: rgb(165, 24, 83);
+    font-family:monospace;
+}
+.List a:hover{
+    width: 100px;
+   
+}
+.link2{
+    color: rgb(231, 228, 228);
+    text-decoration: none;
+    
+}
+.booklistbutton{
+    border: none;
+    background-color:rgb(83, 170, 170) ;
+    color: aliceblue;
+    transition: box-shadow .3s ease-in-out;
+    height: 30px;
+    border-radius: 12px;
+}
+.booklistbutton:hover{
+    box-shadow: 0 0 5px 5px rgb(232, 234, 236),
+    0 0 10px 10px rgb(60, 60, 163);
+}
+.booklist img:hover{
+    transform: scale(0.8);
+    
+   
+}
